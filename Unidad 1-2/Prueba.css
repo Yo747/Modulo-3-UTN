@@ -1,6 +1,7 @@
 body{font-family: 'Georama', sans-serif;
 font-size: 20px;
-line-height: 20px;}
+line-height: 20px;
+}
 
 header{background-color: yellow;
 padding: 1em 0;}
@@ -20,7 +21,7 @@ margin: 0;
 padding: 0;}
 
 nav ul li{display: inline-flex;
-width: 32%;}
+width: 15%;}
 
 nav ul li a{color: black;
 text-decoration: none;
@@ -33,12 +34,14 @@ nav ul li a:hover{background-color: white;}
 footer{background-color: grey;
 text-align: center;
 padding: 3em;
-margin: 2em}
+clear: both;
+}
 
 /* Inicio home */
 
 .holder {width: 960px;
-margin: 0 auto;}
+margin: 0 auto;
+}
 
 .obrero{display: flex;
 justify-content: center;
@@ -75,6 +78,8 @@ margin-left: 0;
 margin: 0 0.25em 0 0.25em;
 box-sizing: border-box;
 text-align: center;}
+
+.personaz .persona:nth-child(1) :hover {transition: 4s; opacity: 0;}
  
 .persona p{ margin: 0 1em 1em;}
 
@@ -93,3 +98,44 @@ font-style: italic;
 border-bottom: 1px solid black;
 padding-bottom: 0.5em;}
 /* Fin servicio? */
+
+/* Inicio galeria */
+
+    .Galery {display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+     
+    .Picture{ border: solid 4px black;
+    width: 100%;}
+
+   .Galery .Picture:nth-child(1) :hover{transition: 4s; opacity: 0;}
+
+   /* Fin galeria */
+
+  /* Inicio contacto */
+
+  .columna {width: 50%;
+  box-sizing: border-box;
+padding: 0.6em;}
+ 
+.columna.left{border-right: 1px solid black;}
+
+.columna.right p {font-size: 1em;}
+
+.columna.right ul li {font-size: 1em;}
+
+.formula label {vertical-align: top;
+width: 15%;
+display: inline-block;}
+
+.formulario input,
+.formulario textarea {background-color: white;
+border-radius: 4px;
+border: 1px solid black;
+padding: 0.3em 0.5em;
+font-size: 0.7em;
+width: 70%;}
+
+
+/* Fin contacto */
