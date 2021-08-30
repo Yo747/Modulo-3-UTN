@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var numero;
+        numero = prompt("Ingrese numero:", "");
+        numero = parseInt(numero);
+        if (numero <= 0) {
+            document.write("No se mueva");
+        }
+        else if (numero <= 1000) {
+            document.write("A pie");
+        }
+        else if (numero <= 10000) {
+            document.write("Monte una bicicleta");
+        }
+        else if (numero <= 30000) {
+            document.write("Viaje en colectivo");
+        }
+        else if (numero <= 100000) {
+            document.write("Conduzca un automovil");
+        }
+        else { (numero > 100000) 
+            document.write("Tome un avión");
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
