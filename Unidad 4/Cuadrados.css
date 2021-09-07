@@ -1,0 +1,28 @@
+
+.cajas {display: flex;
+justify-content: space-between;
+flex-direction: row;}
+
+.rojo {background: red;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.azul {background: blue;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;}
+.amarillo {background: yellow;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    cursor: pointer;}
+
+.rojo.activar {background: purple;}
+
+.azul.activar {background: green;}
+
+.amarillo.activar {background: orange;}

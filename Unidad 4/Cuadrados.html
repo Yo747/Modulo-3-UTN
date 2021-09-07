@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrados</title>
+    <link rel="stylesheet" href="Cuadrados.css">
+</head>
+
+<body><div class="cajas">
+    <div class="rojo alternativo"></div>
+    <div class="azul alternativo"></div>
+    <div class="amarillo alternativo"></div>
+</div>
+    <script>
+        var alternativo = document.getElementsByClassName("alternativo")[0];
+        alternativo.addEventListener('click', function (e) {
+            e.target.classList.toggle("activar");
+        })
+
+        var alternativo = document.getElementsByClassName("alternativo")[1];
+        alternativo.addEventListener('click', function (e) {
+            e.target.classList.toggle("activar");
+        })
+        
+        var alternativo = document.getElementsByClassName("alternativo")[2];
+        alternativo.addEventListener('click', function (e) {
+            e.target.classList.toggle("activar");
+        })
+    </script>
+</body>
+
+</html>
