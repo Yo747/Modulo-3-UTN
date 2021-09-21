@@ -10,11 +10,15 @@
 </head>
 
 <body><div class="cajas">
-    <div class="rojo alternativo"></div>
-    <div class="azul alternativo"></div>
-    <div class="amarillo alternativo"></div>
+    <div class="rojo alternativo" onclick="cambio ('purple')" ></div>
+    <div class="azul alternativo" onclick="cambio ('green')"></div>
+    <div class="amarillo alternativo" onclick="cambio ('orange')"></div>
 </div>
     <script>
+        function cambio(color) {document.querySelector('body').style.background = color;
+        }
+        
+        
         var alternativo = document.getElementsByClassName("alternativo")[0];
         alternativo.addEventListener('click', function (e) {
             e.target.classList.toggle("activar");
