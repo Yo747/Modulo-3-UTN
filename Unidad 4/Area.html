@@ -10,14 +10,17 @@
 </head>
 
 <body>
-   <form action="" method="" class="formula">
-       Ingrese caracteres:
-       <input type="text">
+    <textarea name="" id="texto" cols="30" rows="10"></textarea>
+    <div>Caracteres: <span id="contar"></span></div>
 
-   </form>
     <script>
-      
+        var texto = document.getElementById('texto');
+        var contar = document.getElementById('contar');
+        
+        texto.addEventListener('keyup', function(){
+            contar.innerText = texto.value.length; /*cantidad de caracteres ingresados*/
 
+        })
     </script>
 </body>
 
